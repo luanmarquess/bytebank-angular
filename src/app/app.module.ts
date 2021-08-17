@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { ExtratoComponent } from './extrato/extrato.component';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt'
+import { Http2ServerRequest } from 'http2';
 
 registerLocaleData(localePt, 'pt')
 
@@ -18,7 +19,8 @@ registerLocaleData(localePt, 'pt')
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [
     {provide: LOCALE_ID, useValue: 'pt'},
