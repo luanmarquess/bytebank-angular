@@ -16,4 +16,8 @@
 - Exibir uma lista de dados através da diretiva *ngFor;
 - Configurar o formato de horas na aplicação;
 - Utilizar a diretiva *ngIf;
-- Trabalhar com Service.
+- Trabalhar com Service;
+- Construir um mock de uma API REST com o json-server;
+- Importar e utilizar o módulo HttpClient;
+- Enviar os dados de um formulário para a API;
+- Exibir em tela os dados obtidos de uma API.
