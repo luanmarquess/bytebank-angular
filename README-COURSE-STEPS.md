@@ -14,4 +14,6 @@
 - Utilizar o event binding para capturar o evento propagando pelo componente;
 - Utilizar o metadata @Input() para receber valores em um componente;
 - Exibir uma lista de dados através da diretiva *ngFor;
-- Configurar o formato de horas na aplicação.
+- Configurar o formato de horas na aplicação;
+- Utilizar a diretiva *ngIf;
+- Trabalhar com Service.
